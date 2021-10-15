@@ -1,4 +1,4 @@
-import { foods } from './food.js';
+import { food } from './food.js';
 
 const foodList = document.getElementById('food-list');
 
@@ -21,7 +21,7 @@ function renderFood(food){
 }
 
 
-for (let food of foods){
-    const itemList = renderFood(food);
+for (let i of food){
+    const itemList = renderFood(i);
     foodList.append(itemList);
 }
