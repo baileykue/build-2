@@ -1,4 +1,4 @@
-export const food = [
+export const foods = [
     { id: 1, name: 'apple', type: 'fruit', img: './assets/apple.png' },
     { id: 2, name: 'avocado', type: 'fruit', img: './assets/avocado.png' },
     { id: 3, name: 'banana', type: 'fruit', img: './assets/banana.png' },
